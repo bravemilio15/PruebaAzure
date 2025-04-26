@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Aplicación Azure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mi Aplicación prueba Azure</h1>
+            <button id="theme-toggle">Cambiar Tema</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="hero">
+                <h2>Bienvenido a mi aplicación estática</h2>
+                <p>Esta es una aplicación web estática simple desplegada en Azure Static Web Apps.</p>
+            </section>
+
+            <section class="features">
+                <h2>Características de Azure Static Web Apps</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>Despliegue Global</h3>
+                        <p>Contenido servido desde ubicaciones cercanas a tus usuarios.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>CI/CD Integrado</h3>
+                        <p>Integración con GitHub para despliegue continuo.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>HTTPS por defecto</h3>
+                        <p>Certificados SSL/TLS administrados automáticamente.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="counter-section">
+                <h2>Contador Interactivo</h2>
+                <p>Haz clic en los botones para probar la funcionalidad JavaScript:</p>
+                <div class="counter">
+                    <button id="decrease">-</button>
+                    <span id="count">0</span>
+                    <button id="increase">+</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Aplicación de prueba para Azure Static Web Apps &copy; 2025</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
